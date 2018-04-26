@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private var fixedThreadPool: ExecutorService? = null
     private var playerThread: PlayerThread? = null
-    private val path = "file:///android_asset/hensen.mp3"
+    private val path = "file:///android_asset/music.mp3"
     private var type: Int = 0
 
 
